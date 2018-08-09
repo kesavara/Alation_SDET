@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="0" errors="0" failures="0" tests="10" time="172.83">
+ <testsuite name="Kindle Buy TestCases : Alation-SDET Assignment" timestamp="2018-08-09T14:46:13" hostname="localhost" time="86.513" errors="0" tests="0" skipped="0" disabled="0" failures="0">
+ </testsuite>
+ <testsuite name="Kindle Buy TestCases : Alation-SDET Assignment.Kindle Book Buy - Testcases" timestamp="2018-08-09T14:46:13" hostname="localhost" time="54.131" errors="0" tests="3" skipped="0" disabled="0" failures="0">
+  <testcase classname="Kindle Buy TestCases : Alation-SDET Assignment.Kindle Book Buy - Testcases" name="TestCase 1 : GoTO Amazon.com" time="8.222" />
+  <testcase classname="Kindle Buy TestCases : Alation-SDET Assignment.Kindle Book Buy - Testcases" name="TestCase 2 : Choose Books Department" time="45.827" />
+  <testcase classname="Kindle Buy TestCases : Alation-SDET Assignment.Kindle Book Buy - Testcases" name="TestCase 3 : Read the Book Title" time="0.081" />
+ </testsuite>
+ <testsuite name="Kindle Buy TestCases : Alation-SDET Assignment. TestCases Related to &apos;KINDLE BUY Book" timestamp="2018-08-09T14:47:07" hostname="localhost" time="32.186" errors="0" tests="7" skipped="0" disabled="0" failures="0">
+  <testcase classname="Kindle Buy TestCases : Alation-SDET Assignment. TestCases Related to &apos;KINDLE BUY Book" name="TestCase 6 : Switch to Kindle Tab and read the Price of Kindle" time="3.879" />
+  <testcase classname="Kindle Buy TestCases : Alation-SDET Assignment. TestCases Related to &apos;KINDLE BUY Book" name="TestCase 7 : Verify the page results in Kindle Edition " time="0.058" />
+  <testcase classname="Kindle Buy TestCases : Alation-SDET Assignment. TestCases Related to &apos;KINDLE BUY Book" name="TestCase 7 : Verify Buy Now, Send a Free Sample , Give as Gift " time="23.648" />
+  <testcase classname="Kindle Buy TestCases : Alation-SDET Assignment. TestCases Related to &apos;KINDLE BUY Book" name="TestCase 8 : Read the eBooK features and print them  
+EXPECTED Result : Smaple 0 &apos;Highlight, take notes, and search in the book&apos;
+1 &apos;page numbers are just like the physical edition&apos;
+2 &apos;Length: 274 pages&apos; etc .... " time="0.435" />
+  <testcase classname="Kindle Buy TestCases : Alation-SDET Assignment. TestCases Related to &apos;KINDLE BUY Book" name="TestCase 9 :Read &apos;Available on these devices&apos; and list them .
+EXPECTED RESULT - 0 &apos;Kindle Fire HDX&apos;
+1 &apos;Kindle for iPad&apos;
+2 &apos;Kindle for iPhone&apos; " time="0.568" />
+  <testcase classname="Kindle Buy TestCases : Alation-SDET Assignment. TestCases Related to &apos;KINDLE BUY Book" name="TestCase 10 : Read the Sold By . If exists, print the name of vendor " time="0.098" />
+  <testcase classname="Kindle Buy TestCases : Alation-SDET Assignment. TestCases Related to &apos;KINDLE BUY Book" name="TestCase 11 : Verify &apos;ADD TO CART&apos; navigates to AddedToCart_Page" time="3.496" />
+ </testsuite>
+</testsuites>

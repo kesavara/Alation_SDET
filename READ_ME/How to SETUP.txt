@@ -1,0 +1,27 @@
+
+
+PRE-REQUESTIES :
+A) Install Java - Latest version or (1.8.0_171)
+
+
+
+INSTALL PROCEDURE :
+
+B) Installing node.js and npm on MAC :
+
+	1)Installing node manually:
+	Please download the latest version of Node Js from http://nodejs.org.
+
+	2)Verify NPM is ready to use:
+
+		Now, open another terminal window and type ‘npm’ and hit enter.
+		If you observe ‘-bash: npm: Command not found’, you need to append npm location to the $PATH environment variable. Please execute the below commands in set $PATH for npm.
+
+			1. printf '%s\n' "export PATH=/usr/local/bin:\$PATH" >> ~/.bash_profile
+			2. printf '%s\n' "export PATH=/usr/local/bin:\$PATH" >> ~/.profile
+			
+C)Install Protractor, run below in Cmd window.
+
+     $ npm install -g protractor
+	 $ webdriver-manager update  	 
+	 
