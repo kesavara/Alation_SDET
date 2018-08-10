@@ -16,8 +16,10 @@ HOW TO RUN THE TEST :
 	RUN FROM COMMAND LINE:
 
 		1.Clone the project from https://github.com/kesavara/Alation_SDET
-		2.cd to the above directory and to PROTRACTOR_WORKSPACE   (eg) c:/users/...../Kesav_Alation_SDET_Assigment/PROTRACTOR_WORKSPACE)
+		2.cd to the above directory and to PROTRACTOR_WORKSPACE   (eg) c:/users/...../Kesav_Alation_SDET_Assigment/WORKSPACE_TESTCODE)
 
-		3. protractor config.js 
+		3.npm install
+		4.npm start
+
+//package.json file has configuration about dependencies to install, Test run configuration.
 		
-		NOTE : Config.js is the place where we have setup complete configuration .For eg) Test environmnet confiduration, Testsuite or Testcase to run, reports and other.
