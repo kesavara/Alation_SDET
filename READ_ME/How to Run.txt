@@ -7,7 +7,7 @@ B) HOW TO RUN THE TEST :
 	RUN FROM COMMAND LINE:
 
 		1.Clone the project from https://github.com/kesavara/Alation_SDET
-		2.cd to the above directory and to PROTRACTOR_WORKSPACE   (eg) c:/users/...../Kesav_Alation_SDET_Assigment/WORKSPACE_TESTCODE)
+		2.cd to the above directory and to WORKSPACE_TESTCODE   (eg) c:/users/...../Kesav_Alation_SDET_Assigment/WORKSPACE_TESTCODE)
 
 		3.npm install
 		4.npm start
@@ -30,8 +30,8 @@ B) HOW TO RUN THE TEST :
 			  >Press '+' button on top left corner.
 			  >Select 'Protractor'.
 			  >Enter name
-			  >Configuration File : Locate the location of config file     (eg, C:\Users\<user>\...\Kesav_Alation_SDET_Assigment\PROTRACTOR_WORKSPACE\config.js)
-			  >Protractor Package : Locate the protractor package path     (eg, C:\Users\<user>\...\Kesav_Alation_SDET_Assigment\PROTRACTOR_WORKSPACE\node_modules\protractor\)
+			  >Configuration File : Locate the location of config file     (eg, C:\Users\<user>\...\Kesav_Alation_SDET_Assigment\WORKSPACE_TESTCODE\config.js)
+			  >Protractor Package : Locate the protractor package path     (eg, C:\Users\<user>\...\Kesav_Alation_SDET_Assigment\WORKSPACE_TESTCODE\node_modules\protractor\)
 			  >Click 'Apply' and 'OK' buttons.
 
 			  
