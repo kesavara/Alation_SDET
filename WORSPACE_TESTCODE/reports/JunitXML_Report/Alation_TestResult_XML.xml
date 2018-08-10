@@ -1,0 +1,1191 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites disabled="0" errors="0" failures="33" tests="26" time="71.863">
+ <testsuite name="Alation-SDET Assignment" timestamp="2018-08-10T18:41:45" hostname="localhost" time="36.894" errors="0" tests="0" skipped="0" disabled="0" failures="0">
+ </testsuite>
+ <testsuite name="Alation-SDET Assignment.Amazon.com is used for SDET Assignment - General TestCases" timestamp="2018-08-10T18:41:45" hostname="localhost" time="11.432" errors="0" tests="7" skipped="0" disabled="0" failures="5">
+  <testcase classname="Alation-SDET Assignment.Amazon.com is used for SDET Assignment - General TestCases" name="TestCase 1 : GoTO Amazon.com" time="9.833" />
+  <testcase classname="Alation-SDET Assignment.Amazon.com is used for SDET Assignment - General TestCases" name="TestCase 2 : Choose Books Department" time="0.377">
+   <failure type="exception" message="Failed: Element &lt;option&gt; could not be scrolled into view"><![CDATA[ElementNotInteractableError: Element <option> could not be scrolled into view
+    at Object.throwDecodedError (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:514:15)
+    at parseHttpResponse (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:519:13)
+    at doSend.then.response (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+From: Task: WebElement.click()
+    at Driver.schedule (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at WebElement.schedule_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:2010:25)
+    at WebElement.click (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:2092:17)
+    at actionFn (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:89:44)
+    at Array.map (<anonymous>)
+    at actionResults.getWebElements.then (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:461:65)
+    at ManagedPromise.invokeCallback_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as click] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as click] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\General_PaperBack_TestSuite.js:44:73)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+From: Task: Run it("TestCase 2 : Choose Books Department") in control flow
+    at UserContext.<anonymous> (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at shutdownTask_.MicroTask (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\General_PaperBack_TestSuite.js:41:13)
+    at addSpecsToSuite (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Suite.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\General_PaperBack_TestSuite.js:31:9)
+    at addSpecsToSuite (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\General_PaperBack_TestSuite.js:18:1)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Alation-SDET Assignment.Amazon.com is used for SDET Assignment - General TestCases" name="TestCase 3 : Read the Book Title" time="0.237">
+   <failure type="exception" message="Failed: No element found using locator: By(css selector, *[id=&quot;productTitle&quot;])"><![CDATA[NoSuchElementError: No element found using locator: By(css selector, *[id="productTitle"])
+    at elementArrayFinder.getWebElements.then (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:814:27)
+    at ManagedPromise.invokeCallback_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as getText] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as getText] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at locators.getTextby_ID (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\page\locator_PageObjects.js:25:35)
+    at UserContext.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\General_PaperBack_TestSuite.js:54:34)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+From: Task: Run it("TestCase 3 : Read the Book Title") in control flow
+    at UserContext.<anonymous> (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at shutdownTask_.MicroTask (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\General_PaperBack_TestSuite.js:52:13)
+    at addSpecsToSuite (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Suite.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\General_PaperBack_TestSuite.js:31:9)
+    at addSpecsToSuite (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\General_PaperBack_TestSuite.js:18:1)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Alation-SDET Assignment.Amazon.com is used for SDET Assignment - General TestCases" name="TestCase 4 : Read the Authors Name ,Book Written By. List their Names" time="0.293">
+   <failure type="exception" message="Failed: No element found using locator: By(css selector, *[id=&quot;bylineInfo&quot;])"><![CDATA[NoSuchElementError: No element found using locator: By(css selector, *[id="bylineInfo"])
+    at elementArrayFinder.getWebElements.then (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:814:27)
+    at ManagedPromise.invokeCallback_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as getText] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at UserContext.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\General_PaperBack_TestSuite.js:60:50)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25)
+From: Task: Run it("TestCase 4 : Read the Authors Name ,Book Written By. List their Names") in control flow
+    at UserContext.<anonymous> (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at shutdownTask_.MicroTask (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\General_PaperBack_TestSuite.js:58:13)
+    at addSpecsToSuite (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Suite.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\General_PaperBack_TestSuite.js:31:9)
+    at addSpecsToSuite (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\General_PaperBack_TestSuite.js:18:1)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Alation-SDET Assignment.Amazon.com is used for SDET Assignment - General TestCases" name="TestCase 5 : Read the Price RANGES (PaperBack,Kindle) of NewBook" time="0.236">
+   <failure type="exception" message="Failed: No element found using locator: By(xpath, //li[@id=&quot;mediaTab_heading_1&quot;]/a/span/div[2]/span)"><![CDATA[NoSuchElementError: No element found using locator: By(xpath, //li[@id="mediaTab_heading_1"]/a/span/div[2]/span)
+    at elementArrayFinder.getWebElements.then (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:814:27)
+    at ManagedPromise.invokeCallback_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as getText] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as getText] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at locators.getTextby_XPath (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\page\locator_PageObjects.js:36:41)
+    at UserContext.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\General_PaperBack_TestSuite.js:70:34)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+From: Task: Run it("TestCase 5 : Read the Price RANGES (PaperBack,Kindle) of NewBook") in control flow
+    at UserContext.<anonymous> (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at shutdownTask_.MicroTask (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\General_PaperBack_TestSuite.js:68:13)
+    at addSpecsToSuite (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Suite.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\General_PaperBack_TestSuite.js:31:9)
+    at addSpecsToSuite (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\General_PaperBack_TestSuite.js:18:1)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Alation-SDET Assignment.Amazon.com is used for SDET Assignment - General TestCases" name="TestCase 6 : Read the Book ISBN-13 and ISBN-10 Bar Code Values" time="0.252">
+   <failure type="toBe" message="Expected false to be true."><![CDATA[Error: Failed expectation
+    at locators.verify_Is_Present_by_Xpath (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\page\locator_PageObjects.js:20:54)
+    at UserContext.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\General_PaperBack_TestSuite.js:80:57)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Alation-SDET Assignment.Amazon.com is used for SDET Assignment - General TestCases" name="TestCase 7 : Read the Product Details and display it at the console" time="0.203" />
+ </testsuite>
+ <testsuite name="Alation-SDET Assignment. TestCases Related to &apos;PAPER BACK&apos; Book" timestamp="2018-08-10T18:41:57" hostname="localhost" time="13.793" errors="0" tests="9" skipped="0" disabled="0" failures="9">
+  <testcase classname="Alation-SDET Assignment. TestCases Related to &apos;PAPER BACK&apos; Book" name="TestCase 6 : Buy New Book Price of PaperBack" time="0.031">
+   <failure type="exception" message="Failed: No element found using locator: By(xpath, //div[@id=&apos;newOfferAccordionRow&apos;]/div/div/a/i)"><![CDATA[NoSuchElementError: No element found using locator: By(xpath, //div[@id='newOfferAccordionRow']/div/div/a/i)
+    at elementArrayFinder.getWebElements.then (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:814:27)
+    at ManagedPromise.invokeCallback_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as click] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as click] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at locators.clickby_Xpath (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\page\locator_PageObjects.js:17:34)
+    at UserContext.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\General_PaperBack_TestSuite.js:117:34)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+From: Task: Run it("TestCase 6 : Buy New Book Price of PaperBack") in control flow
+    at UserContext.<anonymous> (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at shutdownTask_.MicroTask (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\General_PaperBack_TestSuite.js:116:13)
+    at addSpecsToSuite (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Suite.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\General_PaperBack_TestSuite.js:114:9)
+    at addSpecsToSuite (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\General_PaperBack_TestSuite.js:18:1)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Alation-SDET Assignment. TestCases Related to &apos;PAPER BACK&apos; Book" name="TestCase 7 : Verify &apos;ADD TO CART&apos; navigates to AddedToCart_Page" time="0.203">
+   <failure type="exception" message="Failed: No element found using locator: By(xpath, //input[@id=&apos;add-to-cart-button&apos;])"><![CDATA[NoSuchElementError: No element found using locator: By(xpath, //input[@id='add-to-cart-button'])
+    at elementArrayFinder.getWebElements.then (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:814:27)
+    at ManagedPromise.invokeCallback_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as click] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as click] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at locators.clickby_Xpath (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\page\locator_PageObjects.js:17:34)
+    at UserContext.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\General_PaperBack_TestSuite.js:124:34)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+From: Task: Run it("TestCase 7 : Verify 'ADD TO CART' navigates to AddedToCart_Page") in control flow
+    at UserContext.<anonymous> (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at shutdownTask_.MicroTask (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\General_PaperBack_TestSuite.js:123:13)
+    at addSpecsToSuite (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Suite.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\General_PaperBack_TestSuite.js:114:9)
+    at addSpecsToSuite (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\General_PaperBack_TestSuite.js:18:1)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Alation-SDET Assignment. TestCases Related to &apos;PAPER BACK&apos; Book" name="TestCase 7 : Verify New Book is &apos;IN STOCK&apos; or Not " time="0.25">
+   <failure type="exception" message="Failed: No element found using locator: By(css selector, .a-size-medium.a-color-success)"><![CDATA[NoSuchElementError: No element found using locator: By(css selector, .a-size-medium.a-color-success)
+    at elementArrayFinder.getWebElements.then (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:814:27)
+    at ManagedPromise.invokeCallback_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as getText] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as getText] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at locators.getTextby_ClassName (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\page\locator_PageObjects.js:30:45)
+    at UserContext.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\General_PaperBack_TestSuite.js:131:45)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+From: Task: Run it("TestCase 7 : Verify New Book is 'IN STOCK' or Not ") in control flow
+    at UserContext.<anonymous> (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at shutdownTask_.MicroTask (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\General_PaperBack_TestSuite.js:130:13)
+    at addSpecsToSuite (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Suite.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\General_PaperBack_TestSuite.js:114:9)
+    at addSpecsToSuite (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\General_PaperBack_TestSuite.js:18:1)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Alation-SDET Assignment. TestCases Related to &apos;PAPER BACK&apos; Book" name="TestCase 8 : Product Delivery COuntry and expected date" time="0.288">
+   <failure type="exception" message="Failed: No element found using locator: By(xpath, //*[@id=&quot;delivery-message&quot;][1]/b[1])"><![CDATA[NoSuchElementError: No element found using locator: By(xpath, //*[@id="delivery-message"][1]/b[1])
+    at elementArrayFinder.getWebElements.then (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:814:27)
+    at ManagedPromise.invokeCallback_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as getText] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as getText] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at locators.getTextby_XPath (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\page\locator_PageObjects.js:36:41)
+    at UserContext.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\General_PaperBack_TestSuite.js:143:34)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+From: Task: Run it("TestCase 8 : Product Delivery COuntry and expected date") in control flow
+    at UserContext.<anonymous> (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at shutdownTask_.MicroTask (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\General_PaperBack_TestSuite.js:142:13)
+    at addSpecsToSuite (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Suite.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\General_PaperBack_TestSuite.js:114:9)
+    at addSpecsToSuite (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\General_PaperBack_TestSuite.js:18:1)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Alation-SDET Assignment. TestCases Related to &apos;PAPER BACK&apos; Book" name="TestCase 9 : Verify &apos;Add to Card&apos;,&apos;Buy Now&apos;,&apos;Quantity&apos; and &apos;See All Buying Options&apos; is Present and Enabled for Selection" time="5.21">
+   <failure type="exception" message="Failed: On Faliure if not clickable,this message will be displayed at output. 
+ &apos;Add to Cart is not Enabled for selection&apos;
+Wait timed out after 5004ms"><![CDATA[TimeoutError: On Faliure if not clickable,this message will be displayed at output. 
+ 'Add to Cart is not Enabled for selection'
+Wait timed out after 5004ms
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2201:17
+    at ManagedPromise.invokeCallback_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+From: Task: On Faliure if not clickable,this message will be displayed at output. 
+ 'Add to Cart is not Enabled for selection'
+    at scheduleWait (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2188:20)
+    at ControlFlow.wait (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2517:12)
+    at Driver.wait (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:934:29)
+    at locators.verifyElement_Is_Clickable_Xpath (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\page\locator_PageObjects.js:41:24)
+    at UserContext.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\General_PaperBack_TestSuite.js:153:34)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+From: Task: Run it("TestCase 9 : Verify 'Add to Card','Buy Now','Quantity' and 'See All Buying Options' is Present and Enabled for Selection") in control flow
+    at UserContext.<anonymous> (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at shutdownTask_.MicroTask (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\General_PaperBack_TestSuite.js:151:13)
+    at addSpecsToSuite (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Suite.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\General_PaperBack_TestSuite.js:114:9)
+    at addSpecsToSuite (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\General_PaperBack_TestSuite.js:18:1)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Alation-SDET Assignment. TestCases Related to &apos;PAPER BACK&apos; Book" name="TestCase 10 : Read More Buying Options vendors count and  Price Range" time="5.336">
+   <failure type="toBe" message="Expected false to be true."><![CDATA[Error: Failed expectation
+    at locators.verify_Is_Present_by_Xpath (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\page\locator_PageObjects.js:20:54)
+    at UserContext.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\General_PaperBack_TestSuite.js:161:57)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Alation-SDET Assignment. TestCases Related to &apos;PAPER BACK&apos; Book" name="TestCase 11 : Read the Price of USED BOOK" time="1.069">
+   <failure type="toBe" message="Expected false to be true."><![CDATA[Error: Failed expectation
+    at locators.verify_Is_Present_by_Xpath (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\page\locator_PageObjects.js:20:54)
+    at UserContext.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\General_PaperBack_TestSuite.js:176:48)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Alation-SDET Assignment. TestCases Related to &apos;PAPER BACK&apos; Book" name="TestCase 12 : Buy Used - Verify &apos;Buy Now&apos; Option is available for Used Book and &apos;Add to Cart&apos; option is available " time="0.745">
+   <failure type="exception" message="Failed: TimeInSec is not defined"><![CDATA[ReferenceError: TimeInSec is not defined
+    at UserContext.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\General_PaperBack_TestSuite.js:190:106)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+From: Task: Run it("TestCase 12 : Buy Used - Verify 'Buy Now' Option is available for Used Book and 'Add to Cart' option is available ") in control flow
+    at UserContext.<anonymous> (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at shutdownTask_.MicroTask (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\General_PaperBack_TestSuite.js:187:13)
+    at addSpecsToSuite (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Suite.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\General_PaperBack_TestSuite.js:114:9)
+    at addSpecsToSuite (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\General_PaperBack_TestSuite.js:18:1)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Alation-SDET Assignment. TestCases Related to &apos;PAPER BACK&apos; Book" name="TestCase 13 : Verify Used Book is &apos;IN STOCK&apos; or Not " time="0.652">
+   <failure type="toBe" message="Expected false to be true."><![CDATA[Error: Failed expectation
+    at locators.verify_Is_Present_by_Xpath (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\page\locator_PageObjects.js:20:54)
+    at UserContext.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\General_PaperBack_TestSuite.js:195:59)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+ <testsuite name="Kindle Buy TestCases : Alation-SDET Assignment" timestamp="2018-08-10T18:42:22" hostname="localhost" time="4.88" errors="0" tests="0" skipped="0" disabled="0" failures="0">
+ </testsuite>
+ <testsuite name="Kindle Buy TestCases : Alation-SDET Assignment.Kindle Book Buy - Testcases" timestamp="2018-08-10T18:42:22" hostname="localhost" time="4.63" errors="0" tests="3" skipped="0" disabled="0" failures="5">
+  <testcase classname="Kindle Buy TestCases : Alation-SDET Assignment.Kindle Book Buy - Testcases" name="TestCase 1 : GoTO Amazon.com" time="2.058">
+   <failure type="exception" message="Failed: Browsing context has been discarded"><![CDATA[NoSuchWindowError: Browsing context has been discarded
+    at Object.throwDecodedError (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:514:15)
+    at parseHttpResponse (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:519:13)
+    at doSend.then.response (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+From: Task: Protractor.waitForAngular()
+    at Driver.schedule (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at ProtractorBrowser.executeAsyncScript_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\browser.js:425:28)
+    at angularAppRoot.then (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\browser.js:456:33)
+    at ManagedPromise.invokeCallback_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+From: Task: Run it("TestCase 1 : GoTO Amazon.com") in control flow
+    at UserContext.<anonymous> (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:64:48
+    at ControlFlow.emit (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\events.js:62:21)
+    at ControlFlow.shutdown_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2674:10)
+    at shutdownTask_.MicroTask (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2599:53)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\Kindle_TestSuite.js:18:13)
+    at addSpecsToSuite (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Suite.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\Kindle_TestSuite.js:16:9)
+    at addSpecsToSuite (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\Kindle_TestSuite.js:7:1)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Kindle Buy TestCases : Alation-SDET Assignment.Kindle Book Buy - Testcases" name="TestCase 2 : Choose Books Department" time="2.54">
+   <failure type="exception" message="WebDriverError: Failed to decode response from marionette"><![CDATA[WebDriverError: Failed to decode response from marionette
+    at Object.throwDecodedError (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:514:15)
+    at parseHttpResponse (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:519:13)
+    at doSend.then.response (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+From: Task: WebDriver.takeScreenshot()
+    at Driver.schedule (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at Driver.takeScreenshot (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:1085:17)
+    at run (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\browser.js:59:33)
+    at ProtractorBrowser.to.(anonymous function) [as takeScreenshot] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\browser.js:67:16)
+    at Jasmine2HTMLReporter.self.specDone (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\node_modules\protractor-jasmine2-html-reporter\index.js:203:21)
+    at dispatch (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4366:28)
+    at ReportDispatcher.specDone (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4337:11)
+    at Spec.specResultCallback [as resultCallback] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1175:18)
+    at QueueRunner.complete [as onComplete] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:530:12)
+    at Timeout._onTimeout (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4231:12)]]>
+   </failure>
+   <failure type="exception" message="Failed: Tried to run command without establishing a connection"><![CDATA[SessionNotCreatedError: Tried to run command without establishing a connection
+    at Object.throwDecodedError (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:514:15)
+    at parseHttpResponse (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:519:13)
+    at doSend.then.response (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+From: Task: WebDriver.findElements(By(css selector, *[id="searchDropdownBox"]))
+    at Driver.schedule (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at Driver.findElements (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:1048:19)
+    at ptor.waitForAngular.then (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:159:44)
+    at ManagedPromise.invokeCallback_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+    at Immediate._tickCallback [as _onImmediate] (internal/process/next_tick.js:188:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as click] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as click] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\Kindle_TestSuite.js:26:73)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+From: Task: Run it("TestCase 2 : Choose Books Department") in control flow
+    at UserContext.<anonymous> (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at handleError (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4244:11)
+    at process.onerror (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2371:17)
+    at emitOne (events.js:116:13)
+    at process.emit (events.js:211:7)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\Kindle_TestSuite.js:23:13)
+    at addSpecsToSuite (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Suite.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\Kindle_TestSuite.js:16:9)
+    at addSpecsToSuite (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\Kindle_TestSuite.js:7:1)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Kindle Buy TestCases : Alation-SDET Assignment.Kindle Book Buy - Testcases" name="TestCase 3 : Read the Book Title" time="0.032">
+   <failure type="exception" message="SessionNotCreatedError: Tried to run command without establishing a connection"><![CDATA[SessionNotCreatedError: Tried to run command without establishing a connection
+    at Object.throwDecodedError (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:514:15)
+    at parseHttpResponse (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:519:13)
+    at doSend.then.response (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+From: Task: WebDriver.takeScreenshot()
+    at Driver.schedule (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at Driver.takeScreenshot (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:1085:17)
+    at run (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\browser.js:59:33)
+    at ProtractorBrowser.to.(anonymous function) [as takeScreenshot] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\browser.js:67:16)
+    at Jasmine2HTMLReporter.self.specDone (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\node_modules\protractor-jasmine2-html-reporter\index.js:203:21)
+    at dispatch (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4366:28)
+    at ReportDispatcher.specDone (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4337:11)
+    at Spec.specResultCallback [as resultCallback] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1175:18)
+    at QueueRunner.complete [as onComplete] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:530:12)
+    at Immediate._onImmediate (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4231:12)]]>
+   </failure>
+   <failure type="exception" message="Failed: Tried to run command without establishing a connection"><![CDATA[SessionNotCreatedError: Tried to run command without establishing a connection
+    at Object.throwDecodedError (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:514:15)
+    at parseHttpResponse (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:519:13)
+    at doSend.then.response (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+From: Task: WebDriver.findElements(By(css selector, *[id="productTitle"]))
+    at Driver.schedule (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at Driver.findElements (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:1048:19)
+    at ptor.waitForAngular.then (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:159:44)
+    at ManagedPromise.invokeCallback_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+    at Immediate._tickCallback [as _onImmediate] (internal/process/next_tick.js:188:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as getText] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as getText] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at locators.getTextby_ID (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\page\locator_PageObjects.js:25:35)
+    at UserContext.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\Kindle_TestSuite.js:35:34)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+From: Task: Run it("TestCase 3 : Read the Book Title") in control flow
+    at UserContext.<anonymous> (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at handleError (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4244:11)
+    at process.onerror (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2371:17)
+    at emitOne (events.js:116:13)
+    at process.emit (events.js:211:7)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\Kindle_TestSuite.js:34:13)
+    at addSpecsToSuite (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Suite.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\Kindle_TestSuite.js:16:9)
+    at addSpecsToSuite (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\Kindle_TestSuite.js:7:1)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+ <testsuite name="Kindle Buy TestCases : Alation-SDET Assignment. TestCases Related to &apos;KINDLE BUY Book" timestamp="2018-08-10T18:42:27" hostname="localhost" time="0.234" errors="0" tests="7" skipped="0" disabled="0" failures="14">
+  <testcase classname="Kindle Buy TestCases : Alation-SDET Assignment. TestCases Related to &apos;KINDLE BUY Book" name="TestCase 6 : Switch to Kindle Tab and read the Price of Kindle" time="0.031">
+   <failure type="exception" message="SessionNotCreatedError: Tried to run command without establishing a connection"><![CDATA[SessionNotCreatedError: Tried to run command without establishing a connection
+    at Object.throwDecodedError (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:514:15)
+    at parseHttpResponse (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:519:13)
+    at doSend.then.response (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+From: Task: WebDriver.takeScreenshot()
+    at Driver.schedule (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at Driver.takeScreenshot (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:1085:17)
+    at run (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\browser.js:59:33)
+    at ProtractorBrowser.to.(anonymous function) [as takeScreenshot] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\browser.js:67:16)
+    at Jasmine2HTMLReporter.self.specDone (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\node_modules\protractor-jasmine2-html-reporter\index.js:203:21)
+    at dispatch (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4366:28)
+    at ReportDispatcher.specDone (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4337:11)
+    at Spec.specResultCallback [as resultCallback] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1175:18)
+    at QueueRunner.complete [as onComplete] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:530:12)
+    at Immediate._onImmediate (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4231:12)]]>
+   </failure>
+   <failure type="exception" message="Failed: Tried to run command without establishing a connection"><![CDATA[SessionNotCreatedError: Tried to run command without establishing a connection
+    at Object.throwDecodedError (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:514:15)
+    at parseHttpResponse (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:519:13)
+    at doSend.then.response (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+From: Task: WebDriver.findElements(By(xpath, //*[@id='mediaTab_heading_0']//*[contains(text(),'Kindle')]))
+    at Driver.schedule (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at Driver.findElements (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:1048:19)
+    at ptor.waitForAngular.then (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:159:44)
+    at ManagedPromise.invokeCallback_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+    at Immediate._tickCallback [as _onImmediate] (internal/process/next_tick.js:188:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as click] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as click] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at locators.clickby_Xpath (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\page\locator_PageObjects.js:17:34)
+    at UserContext.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\Kindle_TestSuite.js:46:34)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+From: Task: Run it("TestCase 6 : Switch to Kindle Tab and read the Price of Kindle") in control flow
+    at UserContext.<anonymous> (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at handleError (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4244:11)
+    at process.onerror (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2371:17)
+    at emitOne (events.js:116:13)
+    at process.emit (events.js:211:7)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\Kindle_TestSuite.js:45:13)
+    at addSpecsToSuite (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Suite.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\Kindle_TestSuite.js:43:9)
+    at addSpecsToSuite (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\Kindle_TestSuite.js:7:1)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Kindle Buy TestCases : Alation-SDET Assignment. TestCases Related to &apos;KINDLE BUY Book" name="TestCase 7 : Verify the page results in Kindle Edition " time="0.031">
+   <failure type="exception" message="SessionNotCreatedError: Tried to run command without establishing a connection"><![CDATA[SessionNotCreatedError: Tried to run command without establishing a connection
+    at Object.throwDecodedError (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:514:15)
+    at parseHttpResponse (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:519:13)
+    at doSend.then.response (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+From: Task: WebDriver.takeScreenshot()
+    at Driver.schedule (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at Driver.takeScreenshot (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:1085:17)
+    at run (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\browser.js:59:33)
+    at ProtractorBrowser.to.(anonymous function) [as takeScreenshot] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\browser.js:67:16)
+    at Jasmine2HTMLReporter.self.specDone (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\node_modules\protractor-jasmine2-html-reporter\index.js:203:21)
+    at dispatch (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4366:28)
+    at ReportDispatcher.specDone (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4337:11)
+    at Spec.specResultCallback [as resultCallback] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1175:18)
+    at QueueRunner.complete [as onComplete] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:530:12)
+    at Immediate._onImmediate (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4231:12)]]>
+   </failure>
+   <failure type="exception" message="Failed: Tried to run command without establishing a connection"><![CDATA[SessionNotCreatedError: Tried to run command without establishing a connection
+    at Object.throwDecodedError (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:514:15)
+    at parseHttpResponse (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:519:13)
+    at doSend.then.response (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+From: Task: WebDriver.findElements(By(xpath, //*[@id='title']/span[3]))
+    at Driver.schedule (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at Driver.findElements (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:1048:19)
+    at ptor.waitForAngular.then (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:159:44)
+    at ManagedPromise.invokeCallback_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+    at Immediate._tickCallback [as _onImmediate] (internal/process/next_tick.js:188:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as getText] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as getText] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at locators.getTextby_XPath (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\page\locator_PageObjects.js:36:41)
+    at UserContext.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\Kindle_TestSuite.js:54:34)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+From: Task: Run it("TestCase 7 : Verify the page results in Kindle Edition ") in control flow
+    at UserContext.<anonymous> (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at handleError (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4244:11)
+    at process.onerror (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2371:17)
+    at emitOne (events.js:116:13)
+    at process.emit (events.js:211:7)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\Kindle_TestSuite.js:52:13)
+    at addSpecsToSuite (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Suite.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\Kindle_TestSuite.js:43:9)
+    at addSpecsToSuite (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\Kindle_TestSuite.js:7:1)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Kindle Buy TestCases : Alation-SDET Assignment. TestCases Related to &apos;KINDLE BUY Book" name="TestCase 7 : Verify Buy Now, Send a Free Sample , Give as Gift " time="0.031">
+   <failure type="exception" message="SessionNotCreatedError: Tried to run command without establishing a connection"><![CDATA[SessionNotCreatedError: Tried to run command without establishing a connection
+    at Object.throwDecodedError (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:514:15)
+    at parseHttpResponse (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:519:13)
+    at doSend.then.response (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+From: Task: WebDriver.takeScreenshot()
+    at Driver.schedule (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at Driver.takeScreenshot (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:1085:17)
+    at run (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\browser.js:59:33)
+    at ProtractorBrowser.to.(anonymous function) [as takeScreenshot] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\browser.js:67:16)
+    at Jasmine2HTMLReporter.self.specDone (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\node_modules\protractor-jasmine2-html-reporter\index.js:203:21)
+    at dispatch (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4366:28)
+    at ReportDispatcher.specDone (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4337:11)
+    at Spec.specResultCallback [as resultCallback] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1175:18)
+    at QueueRunner.complete [as onComplete] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:530:12)
+    at Immediate._onImmediate (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4231:12)]]>
+   </failure>
+   <failure type="exception" message="Failed: Tried to run command without establishing a connection"><![CDATA[SessionNotCreatedError: Tried to run command without establishing a connection
+    at Object.throwDecodedError (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:514:15)
+    at parseHttpResponse (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:519:13)
+    at doSend.then.response (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+From: Task: WebDriver.findElements(By(xpath, .//form[@id='buyOneClick']//*[contains(text(),'Buy now')]))
+    at Driver.schedule (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at Driver.findElements (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:1048:19)
+    at ptor.waitForAngular.then (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:159:44)
+    at ManagedPromise.invokeCallback_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+    at Immediate._tickCallback [as _onImmediate] (internal/process/next_tick.js:188:7)
+From: Task: <anonymous>
+    at pollCondition (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2195:19)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2191:7
+    at new ManagedPromise (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2190:22
+    at TaskQueue.execute_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2974:25)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+From: Task: Buy now is Enabled for Selection
+    at scheduleWait (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2188:20)
+    at ControlFlow.wait (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2517:12)
+    at Driver.wait (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:934:29)
+    at locators.verifyElement_Is_Clickable_Xpath (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\page\locator_PageObjects.js:41:24)
+    at UserContext.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\Kindle_TestSuite.js:61:34)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+From: Task: Run it("TestCase 7 : Verify Buy Now, Send a Free Sample , Give as Gift ") in control flow
+    at UserContext.<anonymous> (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at handleError (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4244:11)
+    at process.onerror (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2371:17)
+    at emitOne (events.js:116:13)
+    at process.emit (events.js:211:7)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\Kindle_TestSuite.js:60:13)
+    at addSpecsToSuite (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Suite.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\Kindle_TestSuite.js:43:9)
+    at addSpecsToSuite (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\Kindle_TestSuite.js:7:1)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Kindle Buy TestCases : Alation-SDET Assignment. TestCases Related to &apos;KINDLE BUY Book" name="TestCase 8 : Read the eBooK features and print them  
+EXPECTED Result : Smaple 0 &apos;Highlight, take notes, and search in the book&apos;
+1 &apos;page numbers are just like the physical edition&apos;
+2 &apos;Length: 274 pages&apos; etc .... " time="0.032">
+   <failure type="exception" message="SessionNotCreatedError: Tried to run command without establishing a connection"><![CDATA[SessionNotCreatedError: Tried to run command without establishing a connection
+    at Object.throwDecodedError (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:514:15)
+    at parseHttpResponse (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:519:13)
+    at doSend.then.response (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+From: Task: WebDriver.takeScreenshot()
+    at Driver.schedule (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at Driver.takeScreenshot (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:1085:17)
+    at run (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\browser.js:59:33)
+    at ProtractorBrowser.to.(anonymous function) [as takeScreenshot] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\browser.js:67:16)
+    at Jasmine2HTMLReporter.self.specDone (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\node_modules\protractor-jasmine2-html-reporter\index.js:203:21)
+    at dispatch (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4366:28)
+    at ReportDispatcher.specDone (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4337:11)
+    at Spec.specResultCallback [as resultCallback] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1175:18)
+    at QueueRunner.complete [as onComplete] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:530:12)
+    at Immediate._onImmediate (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4231:12)]]>
+   </failure>
+   <failure type="exception" message="Failed: Tried to run command without establishing a connection"><![CDATA[SessionNotCreatedError: Tried to run command without establishing a connection
+    at Object.throwDecodedError (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:514:15)
+    at parseHttpResponse (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:519:13)
+    at doSend.then.response (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+From: Task: WebDriver.findElements(By(css selector, *[id="eTextbookBulletList"]))
+    at Driver.schedule (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at Driver.findElements (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:1048:19)
+    at ptor.waitForAngular.then (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:159:44)
+    at ManagedPromise.invokeCallback_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+    at Immediate._tickCallback [as _onImmediate] (internal/process/next_tick.js:188:7)
+From: Task: Run it("TestCase 8 : Read the eBooK features and print them  
+EXPECTED Result : Smaple 0 'Highlight, take notes, and search in the book'
+1 'page numbers are just like the physical edition'
+2 'Length: 274 pages' etc .... ") in control flow
+    at UserContext.<anonymous> (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at handleError (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4244:11)
+    at process.onerror (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2371:17)
+    at emitOne (events.js:116:13)
+    at process.emit (events.js:211:7)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\Kindle_TestSuite.js:66:13)
+    at addSpecsToSuite (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Suite.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\Kindle_TestSuite.js:43:9)
+    at addSpecsToSuite (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\Kindle_TestSuite.js:7:1)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Kindle Buy TestCases : Alation-SDET Assignment. TestCases Related to &apos;KINDLE BUY Book" name="TestCase 9 :Read &apos;Available on these devices&apos; and list them .
+EXPECTED RESULT - 0 &apos;Kindle Fire HDX&apos;
+1 &apos;Kindle for iPad&apos;
+2 &apos;Kindle for iPhone&apos; " time="0.031">
+   <failure type="exception" message="SessionNotCreatedError: Tried to run command without establishing a connection"><![CDATA[SessionNotCreatedError: Tried to run command without establishing a connection
+    at Object.throwDecodedError (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:514:15)
+    at parseHttpResponse (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:519:13)
+    at doSend.then.response (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+From: Task: WebDriver.takeScreenshot()
+    at Driver.schedule (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at Driver.takeScreenshot (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:1085:17)
+    at run (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\browser.js:59:33)
+    at ProtractorBrowser.to.(anonymous function) [as takeScreenshot] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\browser.js:67:16)
+    at Jasmine2HTMLReporter.self.specDone (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\node_modules\protractor-jasmine2-html-reporter\index.js:203:21)
+    at dispatch (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4366:28)
+    at ReportDispatcher.specDone (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4337:11)
+    at Spec.specResultCallback [as resultCallback] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1175:18)
+    at QueueRunner.complete [as onComplete] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:530:12)
+    at Immediate._onImmediate (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4231:12)]]>
+   </failure>
+   <failure type="exception" message="Failed: Tried to run command without establishing a connection"><![CDATA[SessionNotCreatedError: Tried to run command without establishing a connection
+    at Object.throwDecodedError (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:514:15)
+    at parseHttpResponse (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:519:13)
+    at doSend.then.response (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+From: Task: WebDriver.findElements(By(css selector, .a-unordered-list.a-vertical.a-spacing-none))
+    at Driver.schedule (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at Driver.findElements (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:1048:19)
+    at ptor.waitForAngular.then (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:159:44)
+    at ManagedPromise.invokeCallback_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+    at Immediate._tickCallback [as _onImmediate] (internal/process/next_tick.js:188:7)
+From: Task: Run it("TestCase 9 :Read 'Available on these devices' and list them .
+EXPECTED RESULT - 0 'Kindle Fire HDX'
+1 'Kindle for iPad'
+2 'Kindle for iPhone' ") in control flow
+    at UserContext.<anonymous> (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at handleError (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4244:11)
+    at process.onerror (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2371:17)
+    at emitOne (events.js:116:13)
+    at process.emit (events.js:211:7)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\Kindle_TestSuite.js:82:13)
+    at addSpecsToSuite (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Suite.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\Kindle_TestSuite.js:43:9)
+    at addSpecsToSuite (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\Kindle_TestSuite.js:7:1)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Kindle Buy TestCases : Alation-SDET Assignment. TestCases Related to &apos;KINDLE BUY Book" name="TestCase 10 : Read the Sold By . If exists, print the name of vendor " time="0.031">
+   <failure type="exception" message="SessionNotCreatedError: Tried to run command without establishing a connection"><![CDATA[SessionNotCreatedError: Tried to run command without establishing a connection
+    at Object.throwDecodedError (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:514:15)
+    at parseHttpResponse (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:519:13)
+    at doSend.then.response (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+From: Task: WebDriver.takeScreenshot()
+    at Driver.schedule (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at Driver.takeScreenshot (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:1085:17)
+    at run (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\browser.js:59:33)
+    at ProtractorBrowser.to.(anonymous function) [as takeScreenshot] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\browser.js:67:16)
+    at Jasmine2HTMLReporter.self.specDone (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\node_modules\protractor-jasmine2-html-reporter\index.js:203:21)
+    at dispatch (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4366:28)
+    at ReportDispatcher.specDone (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4337:11)
+    at Spec.specResultCallback [as resultCallback] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1175:18)
+    at QueueRunner.complete [as onComplete] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:530:12)
+    at Immediate._onImmediate (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4231:12)]]>
+   </failure>
+   <failure type="exception" message="Failed: Tried to run command without establishing a connection"><![CDATA[SessionNotCreatedError: Tried to run command without establishing a connection
+    at Object.throwDecodedError (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:514:15)
+    at parseHttpResponse (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:519:13)
+    at doSend.then.response (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+From: Task: WebDriver.findElements(By(xpath, .//*[@id='mediaNoAccordion']//*[contains(text(),'Sold by:')]))
+    at Driver.schedule (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at Driver.findElements (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:1048:19)
+    at ptor.waitForAngular.then (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:159:44)
+    at ManagedPromise.invokeCallback_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+    at Immediate._tickCallback [as _onImmediate] (internal/process/next_tick.js:188:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as isDisplayed] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as isDisplayed] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at UserContext.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\Kindle_TestSuite.js:97:119)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+From: Task: Run it("TestCase 10 : Read the Sold By . If exists, print the name of vendor ") in control flow
+    at UserContext.<anonymous> (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at handleError (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4244:11)
+    at process.onerror (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2371:17)
+    at emitOne (events.js:116:13)
+    at process.emit (events.js:211:7)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\Kindle_TestSuite.js:96:13)
+    at addSpecsToSuite (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Suite.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\Kindle_TestSuite.js:43:9)
+    at addSpecsToSuite (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\Kindle_TestSuite.js:7:1)]]>
+   </failure>
+  </testcase>
+  <testcase classname="Kindle Buy TestCases : Alation-SDET Assignment. TestCases Related to &apos;KINDLE BUY Book" name="TestCase 11 : Verify &apos;ADD TO CART&apos; navigates to AddedToCart_Page" time="0.047">
+   <failure type="exception" message="SessionNotCreatedError: Tried to run command without establishing a connection"><![CDATA[SessionNotCreatedError: Tried to run command without establishing a connection
+    at Object.throwDecodedError (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:514:15)
+    at parseHttpResponse (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:519:13)
+    at doSend.then.response (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+From: Task: WebDriver.takeScreenshot()
+    at Driver.schedule (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at Driver.takeScreenshot (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:1085:17)
+    at run (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\browser.js:59:33)
+    at ProtractorBrowser.to.(anonymous function) [as takeScreenshot] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\browser.js:67:16)
+    at Jasmine2HTMLReporter.self.specDone (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\node_modules\protractor-jasmine2-html-reporter\index.js:203:21)
+    at dispatch (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4366:28)
+    at ReportDispatcher.specDone (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4337:11)
+    at Spec.specResultCallback [as resultCallback] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1175:18)
+    at QueueRunner.complete [as onComplete] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:530:12)
+    at Immediate._onImmediate (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4231:12)]]>
+   </failure>
+   <failure type="exception" message="Failed: Tried to run command without establishing a connection"><![CDATA[SessionNotCreatedError: Tried to run command without establishing a connection
+    at Object.throwDecodedError (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\error.js:514:15)
+    at parseHttpResponse (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:519:13)
+    at doSend.then.response (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\http.js:441:30)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+From: Task: WebDriver.findElements(By(xpath, //input[@id='checkout-button']))
+    at Driver.schedule (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:807:17)
+    at Driver.findElements (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\webdriver.js:1048:19)
+    at ptor.waitForAngular.then (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:159:44)
+    at ManagedPromise.invokeCallback_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1376:14)
+    at TaskQueue.execute_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+    at TaskQueue.executeNext_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3067:27)
+    at asyncRun (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2927:27)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:668:7
+    at <anonymous>
+    at Immediate._tickCallback [as _onImmediate] (internal/process/next_tick.js:188:7)Error
+    at ElementArrayFinder.applyAction_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:459:27)
+    at ElementArrayFinder.(anonymous function).args [as click] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:91:29)
+    at ElementFinder.(anonymous function).args [as click] (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\built\element.js:831:22)
+    at locators.clickby_Xpath (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\page\locator_PageObjects.js:17:34)
+    at UserContext.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\Kindle_TestSuite.js:108:34)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:112:25
+    at new ManagedPromise (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:1077:7)
+    at ControlFlow.promise (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:2505:12)
+    at schedulerExecute (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:95:18)
+    at TaskQueue.execute_ (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\selenium-webdriver\lib\promise.js:3084:14)
+From: Task: Run it("TestCase 11 : Verify 'ADD TO CART' navigates to AddedToCart_Page") in control flow
+    at UserContext.<anonymous> (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasminewd2\index.js:94:19)
+    at attempt (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4297:26)
+    at QueueRunner.run (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4217:20)
+    at runNext (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4257:20)
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4264:13
+    at C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4172:9
+    at handleError (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4244:11)
+    at process.onerror (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:2371:17)
+    at emitOne (events.js:116:13)
+    at process.emit (events.js:211:7)
+From asynchronous test: 
+Error
+    at Suite.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\Kindle_TestSuite.js:107:13)
+    at addSpecsToSuite (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Suite.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\Kindle_TestSuite.js:43:9)
+    at addSpecsToSuite (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1107:25)
+    at Env.describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:1074:7)
+    at describe (C:\Users\kesavara\AppData\Roaming\npm\node_modules\protractor\node_modules\jasmine-core\lib\jasmine-core\jasmine.js:4399:18)
+    at Object.<anonymous> (C:\PERFORCE_WS\Protarctor_WS\Alation_SDET_Assignment\spec\Kindle_TestSuite.js:7:1)]]>
+   </failure>
+  </testcase>
+ </testsuite>
+</testsuites>

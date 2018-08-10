@@ -1,0 +1,42 @@
+A) PRE-REQUISTIES :
+
+Pls Read "How to SETUP.txt"
+
+B) HOW TO RUN THE TEST :
+
+	RUN FROM COMMAND LINE:
+
+		1.Clone the project from https://github.com/kesavara/Alation_SDET
+		2.cd to the above directory and to PROTRACTOR_WORKSPACE   (eg) c:/users/...../Kesav_Alation_SDET_Assigment/WORKSPACE_TESTCODE)
+
+		3.npm install
+		4.npm start
+		
+		NOTE : Config.js is the place where we have setup complete configuration .For eg) Test environmnet confiduration, Testsuite or Testcase to run, reports and other.
+	
+	(OR)
+	
+	RUN FROM WEBSTORM IDE :
+		
+		WebStorm ide can be installed from https://www.jetbrains.com/webstorm/download/
+
+			1.Open Webstorm IDE, Click on Create New Project.
+			  >Enter Project name
+			  >Select Location of Workspace or Protractor Project Directory.
+			  >Project Type : Empty project
+			  
+			2.EDIT Configuartion
+			  >Click on Down arrow ,click on "Edit Configuration"
+			  >Press '+' button on top left corner.
+			  >Select 'Protractor'.
+			  >Enter name
+			  >Configuration File : Locate the location of config file     (eg, C:\Users\<user>\...\Kesav_Alation_SDET_Assigment\PROTRACTOR_WORKSPACE\config.js)
+			  >Protractor Package : Locate the protractor package path     (eg, C:\Users\<user>\...\Kesav_Alation_SDET_Assigment\PROTRACTOR_WORKSPACE\node_modules\protractor\)
+			  >Click 'Apply' and 'OK' buttons.
+
+			  
+			TO RUN :
+			Click on execute button to run the script.
+
+
+    

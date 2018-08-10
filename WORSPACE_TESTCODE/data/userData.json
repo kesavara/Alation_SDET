@@ -1,0 +1,10 @@
+{
+  "urls": {
+    "Amazon_Site_URL":"https://www.amazon.com/"
+  },
+
+  "Logins":{
+    "Username": "",
+    "Password": ""
+  }
+}
