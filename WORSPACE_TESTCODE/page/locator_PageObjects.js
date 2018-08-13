@@ -19,6 +19,11 @@ var locators =  function () {
     locators.prototype.verify_Is_Present_by_Xpath = function (Xpath,True_False) {
         expect(element(by.xpath(Xpath)).isPresent()).toBe(True_False)
     };
+    locators.prototype.verify_Is_Present_by_Xpath_Return = function (Xpath) {
+       return element(by.xpath(Xpath)).isPresent().then(function (result) {
+            return result;
+        })
+    };
 
     locators.prototype.getTextby_ID = function (ID) {
         //read the text and return

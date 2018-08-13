@@ -11,6 +11,7 @@ describe('Kindle Buy TestCases : Alation-SDET Assignment',function(){
     });
     afterAll(function(){
         browser.close();
+        //browser.restart();
     });
 
         describe('Kindle Book Buy - Testcases',function(){
@@ -42,14 +43,14 @@ describe('Kindle Buy TestCases : Alation-SDET Assignment',function(){
         });
         describe(" TestCases Related to 'KINDLE BUY Book",function(){
             
-            it("TestCase 4 : Switch to Kindle Tab and read the Price of Kindle",function(){
+            it("TestCase 6 : Switch to Kindle Tab and read the Price of Kindle",function(){
                 locators_Objects.clickby_Xpath("//*[@id='mediaTab_heading_0']//*[contains(text(),'Kindle')]");
                 element(by.className("a-size-medium a-color-price header-price")).getText().then(function (getText_Price) {
                         console.log("Price of Kindle is " + getText_Price);
                 });
 
             });
-            it("TestCase 5 : Verify the page results in Kindle Edition ",function () {
+            it("TestCase 7 : Verify the page results in Kindle Edition ",function () {
 
                 locators_Objects.getTextby_XPath("//*[@id='title']/span[3]").then(function (text) {
                     var  Edition = text;
@@ -57,13 +58,13 @@ describe('Kindle Buy TestCases : Alation-SDET Assignment',function(){
                 });
 
             });
-            it("TestCase 6 : Verify Buy Now, Send a Free Sample , Give as Gift ",function(){
+            it("TestCase 7 : Verify Buy Now, Send a Free Sample , Give as Gift ",function(){
                 locators_Objects.verifyElement_Is_Clickable_Xpath(".//form[@id='buyOneClick']//*[contains(text(),'Buy now')]",5000,"Buy now is Enabled for Selection");
                 locators_Objects.verifyElement_Is_Clickable_Xpath("//form[@id='buyOneClick']//*[contains(text(),'Send a free sample')]",5000,"Send a Free Sample is Enabled for Selection");
                 locators_Objects.verifyElement_Is_Clickable_ID("gift-button-announce",5000,"Give as Gift option is not available");
 
             });
-            it("TestCase 7 : Read the eBooK features and print them  \n" +
+            it("TestCase 8 : Read the eBooK features and print them  \n" +
                 "EXPECTED Result : Smaple 0 'Highlight, take notes, and search in the book'\n" +
                 "1 'page numbers are just like the physical edition'\n" +
                 "2 'Length: 274 pages' etc .... ", function(){

@@ -12,7 +12,6 @@ B) HOW TO RUN THE TEST :
 		3.npm install
 		4.npm start
 		
-		NOTE : Config.js is the place where we have setup complete configuration .For eg) Test environmnet confiduration, Testsuite or Testcase to run, reports and other.
 	
 	(OR)
 	

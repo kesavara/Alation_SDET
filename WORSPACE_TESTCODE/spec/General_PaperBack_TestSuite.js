@@ -77,19 +77,21 @@ describe('Alation-SDET Assignment',function(){
             });
             it("TestCase 6 : Read the Book ISBN-13 and ISBN-10 Bar Code Values",function () {
                 //Asserting whether element is present or not
-                var PrintEdition_ISBN= locators_Objects.verify_Is_Present_by_Xpath(".//*[@id='isbn_feature_div']",true)
-                if(PrintEdition_ISBN == true){
-                    ISBN_Version = locators_Objects.getTextby_XPath("//*[@id='isbn_feature_div']/div/div[1]/span[1]").then(function (ISBN_Number) {
-                        return ISBN_Number;
-                    });
-                    ISBN_Number= locators_Objects.getTextby_XPath("(//*[@id='printEditionIsbn_feature_div']//span[2])[1]").then(function (ReadValue) {
-                        return ReadValue;
-                    });
-                    console.log("ISBN Version is "+ ISBN_Version +"= "+ " ISBN CODE IS" + ISBN_Number);
-                }
-                else{
-                    console.log("ISBN Numbers are not displayed")
-                }
+                locators_Objects.verify_Is_Present_by_Xpath_Return("//*[@id='isbn_feature_div']").then(function(result) {
+                    if(result == true){
+                        ISBN_Version = locators_Objects.getTextby_XPath("//*[@id='isbn_feature_div']/div/div[1]/span[1]").then(function (ISBN_Number) {
+                            return ISBN_Number;
+                        });
+                        ISBN_Number= locators_Objects.getTextby_XPath("//*[@id='isbn_feature_div']/div/div[1]/span[2]").then(function (ReadValue) {
+                            return ReadValue;
+                        });
+                        console.log("ISBN Version is "+ ISBN_Version +"= "+ " ISBN CODE IS" + ISBN_Number);
+                    }
+                    else{
+                        console.log("ISBN Numbers are not displayed")
+                    }
+                })
+
             });
             
             it("TestCase 7 : Read the Product Details and display it at the console", function () {
@@ -108,26 +110,38 @@ describe('Alation-SDET Assignment',function(){
                     });
                 });
             });
-            
+
+            it("TestCase 8 : Read the Description about the product, display few lines about the product",function () {
+                var iframe = browser.driver.findElement(by.css('iframe[id="bookDesc_iframe"]'));
+                browser.driver.switchTo().frame(iframe);
+                locators_Objects.getTextby_XPath("//div[@id='iframeContent']/p").then(function (result) {
+                    console.log("description is -----"+result);
+                });
+                browser.driver.switchTo().defaultContent();
+            })
+
+
+
+
 
         });
         describe(" TestCases Related to 'PAPER BACK' Book",function(){
             
-            it("TestCase 8 : Buy New Book Price of PaperBack",function(){
+            it("TestCase 9 : Buy New Book Price of PaperBack",function(){
                 locators_Objects.clickby_Xpath("//div[@id='newOfferAccordionRow']/div/div/a/i");
                 locators_Objects.getTextby_ClassName("a-size-medium a-color-price header-price").then(function (getText_Price) {
                         console.log("Price of NewBook is " + getText_Price);
                 });
 
             });
-            it("TestCase 9 : Verify 'ADD TO CART' navigates to AddedToCart_Page",function () {
+            it("TestCase 10 : Verify 'ADD TO CART' navigates to AddedToCart_Page",function () {
                 locators_Objects.clickby_Xpath("//input[@id='add-to-cart-button']");
                 //Assert the page title
                 expect(browser.getTitle()).toContain('Amazon.com Shopping Cart');
                 browser.navigate().back();
             });
 
-            it("TestCase 10 : Verify New Book is 'IN STOCK' or Not ",function(){
+            it("TestCase 11 : Verify New Book is 'IN STOCK' or Not ",function(){
                 var Output=locators_Objects.getTextby_ClassName("a-size-medium a-color-success").then(function (result) {
                     expect(result).toEqual("In Stock.");
                     return result;
@@ -139,7 +153,7 @@ describe('Alation-SDET Assignment',function(){
                 }
             });
 
-            it("TestCase 11 : Product Delivery COuntry and expected date",function(){
+            it("TestCase 12 : Product Delivery COuntry and expected date",function(){
                 locators_Objects.getTextby_XPath('//*[@id="delivery-message"][1]/b[1]').then(function(country){
                     console.log("Delivery COuntry is : "+ country);   
                 });
@@ -148,7 +162,7 @@ describe('Alation-SDET Assignment',function(){
                 });
 
             });
-            it("TestCase 12 : Verify 'Add to Card','Buy Now','Quantity' and 'See All Buying Options' is Present and Enabled for Selection",function(){
+            it("TestCase 13 : Verify 'Add to Card','Buy Now','Quantity' and 'See All Buying Options' is Present and Enabled for Selection",function(){
 
                 locators_Objects.verifyElement_Is_Clickable_Xpath("//*[@id='add-to-cart-button']",5000,"On Faliure if not clickable,this message will be displayed at output. \n 'Add to Cart is not Enabled for selection'");
                 locators_Objects.verifyElement_Is_Clickable_Xpath("//*[@id='bbopAndCartBox']//*[@id='buyNow']",5000,"Buy Now is not Enabled for selection");
@@ -156,7 +170,7 @@ describe('Alation-SDET Assignment',function(){
                 locators_Objects.verifyElement_Is_Clickable_ID("a-autoid-2-announce",5000,"Selection All Buying Options is not Enabled for Selection");
 
             });
-            it("TestCase 13 : Read More Buying Options vendors count and  Price Range",function () {
+            it("TestCase 14 : Read More Buying Options vendors count and  Price Range",function () {
                 browser.sleep(5000);  //sleep for 5sec
                 var MoreBuyingOptions= locators_Objects.verify_Is_Present_by_Xpath(".//*[contains(text(),'More Buying Choices')]",true);
                 if(MoreBuyingOptions){
@@ -172,26 +186,28 @@ describe('Alation-SDET Assignment',function(){
                     console.log("No 'More Buying Options' are displayed")
                 }
             });
-            it("TestCase 14 : Read the Price of USED BOOK",function () {
-                var BuyUsed = locators_Objects.verify_Is_Present_by_Xpath(".//*[contains(text(),'Buy used')]",true);
-                if(BuyUsed){
-                    locators_Objects.clickby_Xpath(".//*[contains(text(),'Buy used')]");
-                    locators_Objects.getTextby_ClassName("a-size-medium a-color-price header-price").getText().then(function (getText_Price) {
-                        console.log("Price of USED_Book is " + getText_Price);
-                    });
-                }else {
-                    console.log("No Used Book Available");
-                }
+            it("TestCase 15 : Read the Price of USED BOOK",function () {
+                locators_Objects.verify_Is_Present_by_Xpath_Return(".//*[contains(text(),'Buy used')]").then(function (BuyUsed) {
+                    if(BuyUsed){
+                        locators_Objects.clickby_Xpath(".//*[contains(text(),'Buy used')]");
+                        locators_Objects.getTextby_ClassName("a-size-medium a-color-price header-price").then(function (getText_Price) {
+                            console.log("Price of USED_Book is " + getText_Price);
+                        });
+                    }else {
+                        console.log("No Used Book Available");
+                    }
+                })
+
 
             });
-            it("TestCase 15 : Buy Used - Verify 'Buy Now' Option is available for Used Book and 'Add to Cart' option is available ",function () {
+            it("TestCase 16 : Buy Used - Verify 'Buy Now' Option is available for Used Book and 'Add to Cart' option is available ",function () {
 
                 locators_Objects.verify_Is_Present_by_Xpath(".//*[@id='usedOfferAccordionRow']//*[contains(text(),'Buy Now')]",false);
                 browser.driver.wait(EC.elementToBeClickable(element(by.name('submit.add-to-cart-ubb'))), 5000,"Add to Cart is unavailable ");
 
 
             });
-            it("TestCase 16 : Verify Used Book is 'IN STOCK' or Not ",function(){
+            it("TestCase 17 : Verify Used Book is 'IN STOCK' or Not ",function(){
                 var InstockIsAvailable = locators_Objects.verify_Is_Present_by_Xpath("//*[@id='usedOfferAccordionRow']//*[contains(text(),'In Stock')]",true);
                 if(InstockIsAvailable){
                         console.log("Used Book is IN STOCK")
