@@ -96,13 +96,7 @@ describe('Alation-SDET Assignment',function(){
             
             it("TestCase 7 : Read the Product Details and display it at the console", function () {
                 var ProductDetails = element.all(by.id('productDetailsTable'));
-                var tagnameAll = ProductDetails.all(by.tagName("li"));
-                var spanAll = tagnameAll.all(by.tagName('b')).each(function (element, index) {
-                    // Will print 0 First, 1 Second, 2 Third.
-                    element.getText().then(function (text) {
-                        console.log(index, text);
-                    });
-                });
+               // var tagnameAll = ProductDetails.all(by.tagName("li"));
                 var detailsAll = ProductDetails.all(by.tagName('li')).each(function (element, index) {
                     // Will print 0 First, 1 Second, 2 Third.
                     element.getText().then(function (text) {
