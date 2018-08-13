@@ -11,9 +11,12 @@ B) HOW TO RUN THE TEST :
 
 		3.npm install
 		4.npm start
-		
 	
-	(OR)
+Note: Check the reports folder(../WORKSPACE_TESTCODE/reprots/) which contains 
+              	>HTML report, 
+		>JunitXml and 
+		>Screenshots on failures.
+	
 	
 	RUN FROM WEBSTORM IDE :
 		
